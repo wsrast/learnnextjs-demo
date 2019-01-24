@@ -1,7 +1,8 @@
-import Layout from '../components/MyLayout.js'
+import React from 'react';
+import Layout from '../components/MyLayout';
 
 export default () => (
-    <Layout>
-       <p>Hello Next.js</p>
-    </Layout>
-)
+  <Layout>
+    <p>Hello Next.js</p>
+  </Layout>
+);
