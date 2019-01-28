@@ -1,10 +1,12 @@
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error"],
-    "linebreak-style": "off",
-    "react/jsx-filename-extension": "off",
-    "jsx-a11y/anchor-is-valid": "off"
-  }
+	"extends": ["airbnb", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		"indent": ["error", "tab"],
+		"jsx-a11y/anchor-is-valid": "off",
+		"linebreak-style": "off",
+		"prettier/prettier": ["error"],
+		"react/jsx-filename-extension": "off",
+		"react/jsx-indent": "tab"
+	}
 }
